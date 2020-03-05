@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40832290-76b2-4c3e-8b6b-d4d6d340e53c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="111" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YbfwSJXGKuboA8wotSxXBAPhZe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.RussianTest.multiplyFaultBasedTestFualt2">
+    <configuration name="FindMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.FindMaxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterizedTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="code3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ParameterizedTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RussianTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.RussianTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RussianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RussianTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RussianTest.multiplyFaultBasedTes1t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.RussianTest" />
+      <option name="METHOD_NAME" value="multiplyFaultBasedTes1t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RussianTest.multiplyFaultBasedTestFualt2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.RussianTest" />
+      <option name="METHOD_NAME" value="multiplyFaultBasedTestFualt2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ParameterizedTest" />
+      <item itemvalue="JUnit.FindMaxTest" />
+      <item itemvalue="JUnit.RussianTest" />
+      <item itemvalue="JUnit.RussianTest (1)" />
+      <item itemvalue="JUnit.RussianTest.multiplyFaultBasedTes1t" />
+      <item itemvalue="JUnit.RussianTest.multiplyFaultBasedTestFualt2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RussianTest.multiplyFaultBasedTestFualt2" />
+        <item itemvalue="JUnit.RussianTest.multiplyFaultBasedTes1t" />
+        <item itemvalue="JUnit.RussianTest (1)" />
+        <item itemvalue="JUnit.RussianTest" />
+        <item itemvalue="JUnit.FindMaxTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40832290-76b2-4c3e-8b6b-d4d6d340e53c" name="Default Changelist" comment="" />
+      <created>1583216452129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583216452129</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="809" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583335212232">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="809" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1792.641.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1583335212232" />
+    <state x="996" y="123" width="696" height="897" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583220473478">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="996" y="123" width="696" height="897" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1583220473478" />
+    <state x="745" y="467" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583216569586">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="745" y="467" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1583216569586" />
+    <state width="854" height="259" key="GridCell.Tab.0.bottom" timestamp="1583336526270">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="854" height="259" key="GridCell.Tab.0.bottom/-1792.641.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1583336526270" />
+    <state width="854" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1583241888284" />
+    <state width="854" height="259" key="GridCell.Tab.0.center" timestamp="1583336526269">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="854" height="259" key="GridCell.Tab.0.center/-1792.641.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1583336526269" />
+    <state width="854" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1583241888284" />
+    <state width="854" height="259" key="GridCell.Tab.0.left" timestamp="1583336526269">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="854" height="259" key="GridCell.Tab.0.left/-1792.641.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1583336526269" />
+    <state width="854" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1583241888284" />
+    <state width="854" height="259" key="GridCell.Tab.0.right" timestamp="1583336526269">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="854" height="259" key="GridCell.Tab.0.right/-1792.641.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1583336526269" />
+    <state width="854" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1583241888284" />
+    <state width="854" height="373" key="GridCell.Tab.1.bottom" timestamp="1583241888279">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="373" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1583241888279" />
+    <state width="854" height="373" key="GridCell.Tab.1.center" timestamp="1583241888279">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="373" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1583241888279" />
+    <state width="854" height="373" key="GridCell.Tab.1.left" timestamp="1583241888279">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="373" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1583241888279" />
+    <state width="854" height="373" key="GridCell.Tab.1.right" timestamp="1583241888279">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="854" height="373" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1583241888279" />
+    <state x="768" y="153" key="SettingsEditor" timestamp="1583217284411">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="768" y="153" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1583217284411" />
+    <state x="600" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583216630639">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="600" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1792.1097@0.23.1792.1097" timestamp="1583216630639" />
+    <state x="912" y="314" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583222934956">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="912" y="314" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1792.1097@0.23.1792.1097" timestamp="1583222934956" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Russian.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/code3$ParameterizedTest.ic" NAME="ParameterizedTest Coverage Results" MODIFIED="1583222914850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+  </component>
+</project>
