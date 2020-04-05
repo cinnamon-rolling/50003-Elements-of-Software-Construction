@@ -20,7 +20,7 @@ class Search(unittest.TestCase):
         except:
             return False
 
-    def test_1(self):
+    def test_2(self):
         driver = self.driver
         driver.get("https://")  # fill in wepage URL
         try:
