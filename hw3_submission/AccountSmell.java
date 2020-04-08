@@ -74,7 +74,7 @@ public class AccountSmell {
 	  
 	  //add to the transaction list
 	  // ListOfAllTransactions.add(new Transaction("debit", amount));
-    addTransaction("dedit", amount);
+    addTransaction("debit", amount);
 	  
 	  //update the last debit date
     lastDebitTime = updateTransactionTime();

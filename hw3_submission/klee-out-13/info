@@ -1,0 +1,21 @@
+klee --write-smt2s homework_klee_jy.bc
+PID: 2608
+Started: 2020-04-08 17:02:07
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2020-04-08 17:02:07
+Elapsed: 00:00:00
+KLEE: done: explored paths = 3
+KLEE: done: avg. constructs per query = 21
+KLEE: done: total queries = 4
+KLEE: done: valid queries = 1
+KLEE: done: invalid queries = 3
+KLEE: done: query cex = 4
+
+KLEE: done: total instructions = 32
+KLEE: done: completed paths = 3
+KLEE: done: generated tests = 3

@@ -24,7 +24,7 @@ public class FitnessCalc {
         int fitness = 0;
         // Loop through our individuals genes and compare them to our cadidates
         for (int i = 0; i < individual.size(); i++) {
-                fitness-=Math.abs(individual.getGene(i)-solution[i]);
+                fitness-=Math.abs(individual.getGene(i)-(individual.getGene(individual.size()-i-1)));
         }
       
         return fitness;
