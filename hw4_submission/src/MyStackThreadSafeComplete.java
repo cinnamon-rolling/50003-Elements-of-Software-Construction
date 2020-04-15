@@ -45,6 +45,21 @@ public class MyStackThreadSafeComplete {
 	    return toReturn;
 	}
 
+	//pre-condition top >= 0
+    //post-condition top and stackArray remain unchanged
+    //use lock, condition and wait
+    public synchronized long peek() {
+        while (isEmpty()) {
+            try {
+                wait();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+        }
+        return stackArray[top];
+        // does not need to call notify()
+    }
+
 	//pre-condition: true
 	//post-condition: the elements are un-changed. the return value is true iff the stack is empty.
 	public synchronized boolean isEmpty() {
@@ -55,24 +70,4 @@ public class MyStackThreadSafeComplete {
 		return (top == maxSize -1);
 	}
 
-	public static void main(String[] args){
-		// create empty stack
-		Stack<String> stack = new Stack<String>();
-
-		// push
-		stack.push("1");
-		stack.push("2");
-		stack.push("3");
-		stack.push("4");
-
-		// display stack
-		System.out.println("Initial stack: " + stack);
-
-		// pop
-		stack.pop();
-		stack.pop();
-
-		// display stack again
-		System.out.println("Stack after pop: " + stack);
     }
-}

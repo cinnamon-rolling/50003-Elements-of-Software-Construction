@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DiningPhilFixed1 {
-	private static int N = 5;
+	private static int N = 2;
 
 	public static void main (String[] args) throws Exception {
 		Philosopher[] phils = new Philosopher[N];
@@ -33,31 +33,31 @@ class Philosopher extends Thread {
 
 	public void run() {
 		Random randomGenerator = new Random();
-		reentrantLock.lock();
+//		reentrantLock.lock();
 		try {
-//			while (true) {
-            for (int i = 0; i < 40; i++){
-				Thread.sleep(randomGenerator.nextInt(100)); //not sleeping but thinking
-				System.out.println("Phil " + index + " finishes thinking.");
-				left.pickup();
-				System.out.println("Phil " + index + " picks up left fork.");
-				right.pickup();
-				System.out.println("Phil " + index + " picks up right fork.");
-				Thread.sleep(randomGenerator.nextInt(100)); //eating
-				System.out.println("Phil " + index + " finishes eating.");
-				left.putdown();
-				System.out.println("Phil " + index + " puts down left fork.");
-				right.putdown();
-				System.out.println("Phil " + index + " puts down right fork.");
-
+			while (true) {
+//            for (int i = 0; i < 40; i++){
+            	synchronized (Philosopher.class) {
+					Thread.sleep(randomGenerator.nextInt(100)); //not sleeping but thinking
+					System.out.println("Phil " + index + " finishes thinking.");
+					left.pickup();
+					System.out.println("Phil " + index + " picks up left fork.");
+					right.pickup();
+					System.out.println("Phil " + index + " picks up right fork.");
+					Thread.sleep(randomGenerator.nextInt(100)); //eating
+					System.out.println("Phil " + index + " finishes eating.");
+					left.putdown();
+					System.out.println("Phil " + index + " puts down left fork.");
+					right.putdown();
+					System.out.println("Phil " + index + " puts down right fork.");
+				}
 			}
 		} catch (InterruptedException e) {
 			System.out.println("Don't disturb me while I am sleeping, well, thinking.");
-		} finally {
-		    reentrantLock.unlock();
+		}
         }
 	}
-}
+
 
 class Fork {
 	private final int index;

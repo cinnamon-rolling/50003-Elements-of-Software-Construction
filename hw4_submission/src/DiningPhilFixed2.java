@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DiningPhilFixed2 {
-	private static int N = 5;
+	private static int N = 2;
 
 	public static void main (String[] args) throws Exception {
 		Philosopher[] phils = new Philosopher[N];
@@ -41,8 +41,8 @@ class Philosopher2 extends Thread {
 
             if (flag) {
                 try {
-                    //			while (true) {
-                    for (int i = 0; i < 40; i++) {
+                    while (true) {
+//                    for (int i = 0; i < 40; i++) {
 
                         Thread.sleep(randomGenerator.nextInt(100)); //not sleeping but thinking
                         System.out.println("Phil " + index + " finishes thinking.");
